@@ -40,7 +40,7 @@ def save_to_excel(records, index):
         print(f'{index}_search.xlsx 缓存成功！')
 
 def start_task():
-    save_num = 500
+    save_num = 1000
     sleeptime = 0.5
     pd_r = pd.read_excel('./data/search.xlsx', index_col='index')
     record_queue = Queue()

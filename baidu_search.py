@@ -130,4 +130,4 @@ def get_search_num(keyword: str, starttime: int, endtime: int, domain: str = Non
             headers['User-Agent'] = user_agents[random.randint(0, len(user_agents) - 1)]
             proxy['http'] = proxys[random.randint(0, len(proxys) - 1)]
             time.sleep(3)
-    return 0
+    return nums
